@@ -75,14 +75,14 @@ public class DeepDive05Recursion
   public void whatIsLastNow() throws Exception
   {
     List<String> messages = Arrays.asList("Hello", "World!", "How", "Are", "You");
-    messages.set(4, "You");
+    messages.set(4, ___);
     String result = messages.get(4);
     Assert.assertEquals("The rest of them", result);
   }
   @Test
   public void putAQuarterAtTheEnd() throws Exception
   {
-    int[] coins = {1, 5, 10, ____};
+    int[] coins = {1, 5, 10, 25};
     Assert.assertEquals(25, coins[3]);
   }
   @Test
